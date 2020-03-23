@@ -8,7 +8,7 @@
     <!-- FAVICON -->
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <!-- BOOTSTRAPP CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="fontawesome-pro-5.12.0-web/css/all.min.css">
     <!-- CUSTOM CSS -->
@@ -18,14 +18,122 @@
   </head>
   <body>
     <!-- NAVBAR -->
-
+    <nav class="navbar navbar-expand-md">
+      <div class="container-fluid">
+        <!-- BRAND -->
+        <a href="#" class="navbar-brand text-uppercase">
+          <h1>admin theme</h1>
+        </a> <!-- .navbar-brand .text-uppercase -->
+        <!-- END OF BRAND -->
+        <!-- TOOGLER -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button> <!-- .navbar-toggler -->
+        <!-- END OF TOOGLER -->
+        <!-- NAVBAR LINKS -->
+        <div id="myNavbar" class="collapse navbar-collapse justify-content-end">
+          <ul class="navbar-nav d-md-none links">
+            <li class="nav-item">
+              <a href="" class="nav-link">
+                <i class="fas fa-home text-muted mr-3"></i>
+                Dashboard
+              </a> <!-- .nav-link -->
+            </li> <!-- .nav-item -->
+            <li class="nav-item">
+              <a href="" class="nav-link">
+                <i class="fas fa-list text-muted mr-3"></i>
+                App
+              </a> <!-- .nav-link -->
+            </li> <!-- .nav-item -->
+            <li class="nav-item">
+              <a href="" class="nav-link">
+                <i class="fas fa-envelope text-muted mr-3"></i>
+                Mailbox
+              </a> <!-- .nav-link -->
+            </li> <!-- .nav-item -->
+            <li class="nav-item">
+              <a href="" class="nav-link">
+                <i class="fas fa-desktop text-muted mr-3"></i>
+                UI Elements
+              </a> <!-- .nav-link -->
+            </li> <!-- .nav-item -->
+            <li class="nav-item">
+              <a href="" class="nav-link">
+                <i class="fas fa-envelope text-muted mr-3"></i>
+                Mailbox
+              </a> <!-- .nav-link -->
+            </li> <!-- .nav-item -->
+          </ul> <!-- .navbar-nav .d-md-none .links -->
+          <!-- NAV ICONS -->
+          <ul class="navbar-nav icons">
+            <li class="nav-item mr-4">
+              <a href="#" class="nav-link">
+                <i class="fas fa-search"></i>
+              </a> <!-- .nav-link -->
+            </li> <!-- .nav-item .mr-4 -->
+            <li class="nav-item mr-4">
+              <a href="#" class="nav-link">
+                <i class="fas fa-bell icon"></i>
+              </a> <!-- .nav-link -->
+            </li> <!-- .nav-item .mr-4 -->
+            <li class="nav-item mr-4">
+              <a href="#" class="nav-link">
+                <i class="fas fa-comment icon"></i>
+              </a> <!-- .nav-link -->
+            </li> <!-- .nav-item .mr-4 -->
+            <li class="nav-item mr-5">
+              <a href="#" class="nav-link">
+                <img src="images/team-1.jpg" alt="team member" class="img-fluid rounded-circle img-thumbnail">
+              </a> <!-- .nav-link -->
+            </li> <!-- .nav-item .mr-5 -->
+            <li class="nav-item">
+              <a href="" class="nav-link" data-toggle="modal" data-target="#sign-out">
+                <i class="fas fa-sign-out"></i>
+                Sign Out
+              </a> <!-- .nav-link -->
+            </li> <!-- .nav-item -->
+          </ul> <!-- .navbar-nav .icons -->
+          <!-- END OF NAV ICONS -->
+        </div> <!-- #myNavbar .collapse .navbar-collapse .justify-content-end -->
+        <!-- END OF NAVBAR LINKS -->
+      </div> <!-- .container-fluid -->
+    </nav> <!-- .navbar .navbar-expand-md -->
     <!-- END OF NAVBAR -->
+
+    <!-- SIGN OUT MODAL -->
+    <div id="sign-out" class="modal fade">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- MODAL HEADER -->
+          <div class="modal-header">
+            <h4 class="modal-title">Already want to leave</h4>
+            <button class="close" data-dismiss="modal">
+              &times;
+            </button> <!-- -->
+          </div> <!-- .modal-header -->
+          <!-- END OF MODAL HEADER -->
+          <!-- MODAL BODY -->
+          <div class="modal-body">
+            It is sad to see you go.<br>
+            Please press logout to leave
+          </div> <!-- .modal-body -->
+          <!-- END OF MODAL BODY -->
+          <!-- MODAL FOOTER -->
+          <div class="modal-footer">
+            <button class="btn btn-primary" type="button" data-dismiss="modal">Stay Here</button>
+            <button class="btn btn-danger" type="button" data-dismiss="modal">Log Out</button>
+          </div> <!-- .modal-footer -->
+          <!-- END OF MODAL FOOTER -->
+        </div> <!-- .modal-content -->
+      </div> <!-- .modal-dialog -->
+    </div> <!-- #sign-out .modal.fade -->
+    <!-- END OF SIGN OUT MODAL -->
 
     <!-- SCRIPTS -->
     <!-- JQUERY -->
     <script src="js/jquery-3.4.1.min.js"></script>
     <!-- BOOTSTRAP -->
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap-4.4.1-dist/js/bootstrap.bundle.min.js"></script>
     <!-- CHART JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
     <!-- LINE CHART JS -->
