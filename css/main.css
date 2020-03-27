@@ -48,3 +48,16 @@ button.navbar-toggler:focus{
   outline: none;
 }
 /** END OF NAVBAR **/
+/** SIDEBAR **/
+.sidebar{
+  background-color: #242a33;
+}
+.sidebar .nav-link,
+.sidebar .navbar-brand{
+  color: #687384;
+}
+.sidebar .nav-link:hover,
+.sidebar .navbar-brand:hover{
+  color: #fff;
+}
+/** END OF SIDEBAR **/
