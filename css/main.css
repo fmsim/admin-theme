@@ -61,3 +61,36 @@ button.navbar-toggler:focus{
   color: #fff;
 }
 /** END OF SIDEBAR **/
+/** CARDS **/
+.inform-card .card-1{
+  background-color: #403f4c;
+}
+.inform-card .card-2{
+  background-color: #efbcd5;
+}
+.inform-card .card-3{
+  background-color: #f9dc5c;
+}
+.inform-card .card-4{
+  background-color: #3185fc;
+}
+.inform-card .card .body-icon{
+  font-size: 3.75rem;
+  transform: rotate(315deg);
+  color: #f15025;
+}
+.inform-card .card{
+  color: #fff;
+}
+.inform-card .card .fas,
+.inform-card .card a{
+  color: #f15025;
+}
+.inform-card .card a:hover{
+  color: #fff;
+  text-decoration: none;
+}
+.inform-card .card-footer{
+  background-color: rgba(0, 0, 0, .5);
+}
+/** END OF CARDS **/
