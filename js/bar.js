@@ -1,4 +1,4 @@
-new Chart(document.getElementById("../bar-chart"), {
+new Chart(document.getElementById("bar-chart"), {
 	type: 'bar',
 	data: {
 		labels: ["Shavers", "Soap", "Water", "Coke"],

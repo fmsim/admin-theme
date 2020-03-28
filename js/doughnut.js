@@ -1,4 +1,4 @@
-new Chart(document.getElementById("../doughnut-chart"), {
+new Chart(document.getElementById("doughnut-chart"), {
 	type: 'doughnut',
 	data: {
 		labels: ["California", "Utah", "Texas", "Nevada", "Oregon"],
